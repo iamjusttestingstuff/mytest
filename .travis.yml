@@ -9,4 +9,4 @@ install:
   - ls -la
 
 script:
-  - cat /etc/passwd
+  - ls -la ~/.
