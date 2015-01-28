@@ -1,0 +1,12 @@
+language: python
+python: 2.7
+
+before_install:
+  # Print Firefox version to ease debugging
+  - firefox -version
+
+install:
+  - ls -la
+
+script:
+  - cat /etc/passwd
